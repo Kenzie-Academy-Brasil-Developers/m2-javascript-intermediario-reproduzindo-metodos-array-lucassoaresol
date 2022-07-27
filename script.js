@@ -17,6 +17,7 @@ function map(array, callback) {
   return resultado
 }
 
+console.log(' • Método Map:')
 console.table(map(arrayMap, callbackMap));
 
 
@@ -43,6 +44,7 @@ function filter(array, callback) {
   return resultado
 }
 
+console.log(' • Método Filter:')
 console.log(filter(arrayFilter, callbackFilter));
 
 //Método Reduce ---------
@@ -66,5 +68,6 @@ function reduce(array, callback, initialValue = 0) {
   return resultado
 }
 
+console.log(' • Método Reduce:')
 console.log(reduce(arrayReduce, callbackReduce));
 console.log(reduce(arrayReduce, callbackReduce, 50));
